@@ -30,8 +30,6 @@ a {
     /* color: white; */
 }
 
-
-
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -96,10 +94,6 @@ header nav {
     display: block;
 }
 
-.main-nav a:hover {
-  color: #f72210;
-}
-
 .link-list-footer li, .social li {
     padding: 0 10px;
     line-height: 15px;
@@ -111,6 +105,13 @@ header nav {
 
 .link-list-footer li:last-of-type, .social li:first-of-type {
     padding-right: 0;
+}
+
+.main-nav li a {
+    color: #000;
+    font-weight: bold;
+    font-size: 19px;
+    font-family:'Roboto Condensed';
 }
 
 .sub-nav {
@@ -187,7 +188,7 @@ header nav {
     padding-left: 20px;
 }
 
-.sub-nav a:hover {
+.sub-nav a:hover, .main-nav a:hover {
     color: #f72210;
 }
 
@@ -230,15 +231,15 @@ img {
 }
 
 footer {
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .main-footer {
-  padding: 5px 0;
+    padding: 5px 0;
 }
 
 .sub-footer {
-  padding: 5px 0;
+    padding: 5px 0;
 }
 
 @media screen and (max-width: 768px) {
