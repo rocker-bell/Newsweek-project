@@ -236,7 +236,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  
   .flogo-container {
     display: flex;
     flex-direction: column;
