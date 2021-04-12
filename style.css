@@ -30,9 +30,7 @@ a {
     /* color: white; */
 }
 
-a:hover {
-    color: #333;
-}
+
 
 /*
     ==============================================
@@ -96,6 +94,10 @@ header nav {
 
 .link-list a {
     display: block;
+}
+
+.main-nav a:hover {
+  color: #f72210;
 }
 
 .link-list-footer li, .social li {
@@ -185,7 +187,7 @@ header nav {
     padding-left: 20px;
 }
 
-.nav-links a:hover, .sub-nav a:hover {
+.sub-nav a:hover {
     color: #f72210;
 }
 
@@ -227,7 +229,17 @@ img {
     padding: 10px 0;
 }
 
-.flogo-container a {}
+footer {
+  padding: 10px 20px;
+}
+
+.main-footer {
+  padding: 5px 0;
+}
+
+.sub-footer {
+  padding: 5px 0;
+}
 
 @media screen and (max-width: 768px) {
     .flogo-container {
