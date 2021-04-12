@@ -39,7 +39,7 @@ a:hover {
                 ****** GLOBAL ******
     ==============================================
 */
-
+/* ----Header ** Basic Style layout ** */
 header {
   margin: 0;
 }
@@ -160,3 +160,27 @@ header nav {
 .fs-24 {
   font-size: 24px;
 }
+
+.right-nav a {
+  padding: 0 15px;
+}
+
+.text-dark {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#search {
+  border: none;
+  width: 65px;
+}
+
+.sub-nav {
+  padding-left: 20px;
+}
+
+.nav-links a:hover,
+.sub-nav a:hover {
+  color: #f72210;
+}
+
