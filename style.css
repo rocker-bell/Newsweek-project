@@ -13,7 +13,9 @@ body {
     --bg-color-red: #f42;
 }
 
-*, *::before, *::after {
+*, 
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -35,7 +37,6 @@ a {
                 ****** GLOBAL ******
     ==============================================
 */
-
 /* ----Header ** Basic Style layout ** */
 
 header {
@@ -99,11 +100,13 @@ header nav {
     line-height: 15px;
 }
 
-.link-list-footer li:first-of-type, .social li:first-of-type {
+.link-list-footer li:first-of-type,
+.social li:first-of-type {
     padding-left: 0;
 }
 
-.link-list-footer li:last-of-type, .social li:first-of-type {
+.link-list-footer li:last-of-type,
+.social li:first-of-type {
     padding-right: 0;
 }
 
@@ -188,7 +191,8 @@ header nav {
     padding-left: 20px;
 }
 
-.sub-nav a:hover, .main-nav a:hover {
+.sub-nav a:hover, 
+.main-nav a:hover {
     color: #f72210;
 }
 
