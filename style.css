@@ -109,7 +109,7 @@ header nav {
   color: #000;
   font-weight: bold;
   font-size: 19px;
-  font-family: 'Roboto Condensed';
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .sub-nav {
@@ -257,7 +257,8 @@ footer {
   .item-height {
     height: 95px;
   }
+
   .logo {
-      height: 60px;
+    height: 60px;
   }
 }
