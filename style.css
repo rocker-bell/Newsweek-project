@@ -5,6 +5,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 body {
   margin: 0;
 }
@@ -14,7 +15,9 @@ body {
   --bg-color-red: #f42;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -190,6 +193,7 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
  .btn-sub {
    background-color: #ffe400;
     border-radius: 25px;
@@ -203,6 +207,7 @@ footer {
 .item-height {
     height: 95px;
   }
+  
   .logo {
     height: 60px;
   }
