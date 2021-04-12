@@ -5,7 +5,6 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
 body {
   margin: 0;
 }
@@ -15,9 +14,7 @@ body {
   --bg-color-red: #f42;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -33,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -41,24 +42,12 @@ a {
 
 /* ----Header ** Basic Style layout ** */
 
-header {
-  margin: 0;
-}
-
-header nav {
-  margin: 0;
-}
-
 .item-height {
   height: 50px;
 }
 
 .bg-orange {
   background-color: #f72210;
-}
-
-.link-list a {
-  display: block;
 }
 
 .link-list-footer a {
@@ -79,32 +68,6 @@ header nav {
   height: 20px;
 }
 
-.nav-links {
-  position: relative;
-}
-
-.link-list {
-  height: 30px;
-  padding: 24px 0;
-  margin: 0;
-}
-
-.link-list-footer li,
-.social li {
-  padding: 0 10px;
-  line-height: 15px;
-}
-
-.link-list-footer li:first-of-type,
-.social li:first-of-type {
-  padding-left: 0;
-}
-
-.link-list-footer li:last-of-type,
-.social li:first-of-type {
-  padding-right: 0;
-}
-
 .main-nav a {
   color: #000;
   font-weight: bold;
@@ -112,16 +75,11 @@ header nav {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.sub-nav {
-  padding: 18px 0;
-}
-
 .sub-nav a {
   color: #807f86;
   font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-bottom: 11px;
 }
 
 .black-header-title {
@@ -129,7 +87,6 @@ header nav {
   font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
-  padding-bottom: 11px;
 }
 
 .fs-16 {
@@ -182,16 +139,11 @@ header nav {
   width: 65px;
 }
 
-.sub-nav a:hover,
-.main-nav a:hover {
+.sub-nav a:hover, .main-nav a:hover {
   color: #f72210;
 }
 
-img {
-  width: 100%;
-}
-
-.y {
+.shape-container {
   position: absolute;
   top: 0;
   right: 0;
@@ -242,12 +194,10 @@ footer {
     display: flex;
     flex-direction: column;
   }
-
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
     padding: 5px 15px;
-    border: 0;
     font-size: 18px;
     font-weight: 700;
   }
@@ -257,7 +207,6 @@ footer {
   .item-height {
     height: 95px;
   }
-
   .logo {
     height: 60px;
   }
