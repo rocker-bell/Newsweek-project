@@ -4,6 +4,8 @@
     ==============================================
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 body {
   margin: 0;
 }
@@ -239,7 +241,7 @@ footer {
   .flogo-container {
     display: flex;
     flex-direction: column;
-    }
+  }
 
   .btn-sub {
     background-color: #ffe400;
@@ -248,14 +250,14 @@ footer {
     border: 0;
     font-size: 18px;
     font-weight: 700;
-    }
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .item-height {
-      height: 95px;
-    }
-    .logo {
+  .item-height {
+    height: 95px;
+  }
+  .logo {
       height: 60px;
-    }
+  }
 }
