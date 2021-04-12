@@ -190,17 +190,17 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .btn-sub {
-    background-color: #ffe400;
+ .btn-sub {
+   background-color: #ffe400;
     border-radius: 25px;
     padding: 5px 15px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .item-height {
+.item-height {
     height: 95px;
   }
   .logo {
