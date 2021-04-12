@@ -73,10 +73,6 @@ header nav {
   font-weight: 700;
 }
 
-header nav {
-  margin: 0;
-}
-
 .logo {
   height: 20px;
 }
@@ -89,10 +85,6 @@ header nav {
   height: 30px;
   padding: 24px 0;
   margin: 0;
-}
-
-.link-list a {
-  display: block;
 }
 
 .link-list-footer li, .social li {
