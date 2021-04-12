@@ -184,3 +184,27 @@ header nav {
   color: #f72210;
 }
 
+img {
+  width: 100%;
+}
+
+.footer-logo {
+  width: 250px;
+  height: 40px;
+}
+
+.flogo-container {
+  padding: 10px 0;
+}
+
+.flogo-container a {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .flogo-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
