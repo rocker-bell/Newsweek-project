@@ -5,7 +5,6 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
 body {
   margin: 0;
 }
@@ -15,9 +14,7 @@ body {
   --bg-color-red: #f42;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -138,8 +135,7 @@ a {
   width: 65px;
 }
 
-.sub-nav a:hover,
-.main-nav a:hover {
+.sub-nav a:hover, .main-nav a:hover {
   color: #f72210;
 }
 
@@ -190,24 +186,26 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-.flogo-container {
-  display: flex;
-  flex-direction: column;
+  .flogo-container {
+    display: flex;
+    flex-direction: column;
   }
-.btn-sub {
-  background-color: #ffe400;
-  border-radius: 25px;
-  padding: 5px 15px;
-  font-size: 13px;
-  font-weight: 700;
+
+  .btn-sub {
+    background-color: #ffe400;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: 700;
   }
 }
 
 @media only screen and (min-width: 992px) {
-.item-height {
-  height: 95px;
+  .item-height {
+    height: 95px;
   }
-.logo {
-  height: 60px;
+
+  .logo {
+    height: 60px;
   }
 }
