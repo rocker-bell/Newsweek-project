@@ -5,6 +5,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
 body {
   margin: 0;
 }
@@ -14,8 +15,8 @@ body {
   --bg-color-red: #f42;
 }
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   margin: 0;
   padding: 0;
@@ -64,6 +65,11 @@ a {
 
 .logo {
   height: 20px;
+}
+
+.debate span a {
+  color: #555;
+  font-weight: bold;
 }
 
 .main-nav a {
@@ -180,7 +186,7 @@ a {
 
 .vs-circle {
   padding: 2px 4px;
-  color: #FFF;
+  color: #fff;
   border: 1px solid black;
   background-color: #000;
   border-radius: 50%;
@@ -202,7 +208,7 @@ a {
 }
 
 .submit-btn button {
-  color: #FFF;
+  color: #fff;
   height: 30px;
   width: 100%;
   background-color: var(--bg-color-red);
@@ -236,11 +242,6 @@ a {
 
 .heavy {
   font-weight: 700;
-}
-
-.debate span a {
-  color: #555;
-  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
