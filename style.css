@@ -176,6 +176,8 @@ a {
   border: 1px solid black;
   background-color: #000;
   border-radius: 50%;
+  top: -18px;
+  left: 140px;
 }
 
 .form {
