@@ -240,6 +240,10 @@ a {
     font-weight: bold;
 }
 
+.more-img {
+ padding: 0 10px;
+}
+
 @media screen and (max-width: 768px) {
     .flogo-container {
         display: flex;
