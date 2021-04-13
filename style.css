@@ -212,6 +212,10 @@ background-color: var(--bg-color-red);
     flex-direction: column;
   }
 
+  .vs-circle {
+    left: 220px;
+  }
+
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
@@ -224,6 +228,10 @@ background-color: var(--bg-color-red);
 @media only screen and (min-width: 992px) {
   .item-height {
     height: 95px;
+  }
+
+  .vs-circle {
+    left: 100px;
   }
 
   .logo {
