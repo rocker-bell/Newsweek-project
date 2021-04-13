@@ -141,7 +141,8 @@ a {
   width: 65px;
 }
 
-.sub-nav a:hover, .main-nav a:hover {
+.sub-nav a:hover,
+.main-nav a:hover {
   color: #f72210;
 }
 
@@ -183,7 +184,7 @@ a {
 
 .vs-circle {
   padding: 2px 4px;
-  color: #FFF;
+  color: #fff;
   border: 1px solid black;
   background-color: #000;
   border-radius: 50%;
@@ -205,7 +206,7 @@ a {
 }
 
 .submit-btn button {
-  color: #FFF;
+  color: #fff;
   height: 30px;
   width: 100%;
   background-color: var(--bg-color-red);
@@ -229,7 +230,7 @@ a {
   padding: 5px 10px 5px;
   bottom: 0;
   left: 0;
-  background-color: #C2D4D7;
+  background-color: #c2d4d7;
 }
 
 .caption span {
