@@ -250,11 +250,6 @@ a {
   font-weight: 700;
 }
 
-.debate span a {
-  color: #555;
-  font-weight: bold;
-}
-
 .more-img {
   padding: 0 10px;
 }
@@ -268,6 +263,7 @@ a {
     display: flex;
     flex-direction: column;
   }
+  
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
@@ -281,6 +277,7 @@ a {
   .item-height {
     height: 95px;
   }
+
   .logo {
     height: 60px;
   }
