@@ -196,7 +196,12 @@ color: #FFF;
 height: 30px;
 width: 100%;
 background-color: var(--bg-color-red);
+}
 
+.caption {
+  color: blue;
+  padding: 10px 10px;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 768px) {
