@@ -263,7 +263,6 @@ a {
     display: flex;
     flex-direction: column;
   }
-  
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
