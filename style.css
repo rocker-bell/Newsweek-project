@@ -267,10 +267,7 @@ a {
   .flogo-container {
     display: flex;
     flex-direction: column;
-    }
-    /* .vs-circle {
-    left: 220px;
-  } */
+  }
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
@@ -284,9 +281,6 @@ a {
   .item-height {
     height: 95px;
   }
-    /* .vs-circle {
-    left: 100px;
-  } */
   .logo {
     height: 60px;
   }
