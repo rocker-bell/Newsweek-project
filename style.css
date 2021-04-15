@@ -142,8 +142,7 @@ a {
   width: 65px;
 }
 
-.sub-nav a:hover,
-.main-nav a:hover {
+.sub-nav a:hover, .main-nav a:hover {
   color: #f72210;
 }
 
