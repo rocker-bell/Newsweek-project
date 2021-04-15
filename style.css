@@ -142,7 +142,8 @@ a {
   width: 65px;
 }
 
-.sub-nav a:hover, .main-nav a:hover {
+.sub-nav a:hover,
+.main-nav a:hover {
   color: #f72210;
 }
 
@@ -338,7 +339,7 @@ img {
   .logo {
     height: 60px;
   }
-  
+
   .subscribe {
     padding: 40px 30px;
   }
