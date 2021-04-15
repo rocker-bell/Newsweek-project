@@ -258,6 +258,10 @@ a {
   padding: 10px 10px;
 }
 
+img {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .flogo-container {
     display: flex;
