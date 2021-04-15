@@ -29,9 +29,9 @@
 
 👤 **Mwila**
 
-- GitHub: [@githubhandle]()
-- Twitter: [@twitterhandle]()
-- LinkedIn: [LinkedIn]()
+- GitHub: [@Mwila-Kaunda](https://github.com/Mwila-Kaunda)
+- Twitter: [@MwilaKaunda](https://twitter.com/MwilaKaunda)
+- LinkedIn: [Mwila Kaunda](https://www.linkedin.com/in/MwilaKaunda/)
 
 ## 🤝 Contributing
 
