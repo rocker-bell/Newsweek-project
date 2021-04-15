@@ -304,13 +304,16 @@ img {
   .text-md-left {
     text-align: left !important;
   }
+
   .mb-md-40 {
     margin-bottom: 0;
   }
+
   .flogo-container {
     display: flex;
     flex-direction: column;
   }
+
   .btn-sub {
     background-color: #ffe400;
     border-radius: 25px;
@@ -318,9 +321,11 @@ img {
     font-size: 13px;
     font-weight: 700;
   }
+
   .subscribe {
     padding: 40px 30px;
   }
+
   .bg-img {
     height: 100%;
   }
@@ -330,9 +335,11 @@ img {
   .item-height {
     height: 95px;
   }
+
   .logo {
     height: 60px;
   }
+  
   .subscribe {
     padding: 40px 30px;
   }
